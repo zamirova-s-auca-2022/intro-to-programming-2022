@@ -6,8 +6,9 @@ public class Problem07 {
         double firstR = input.nextDouble();
         double s = input.nextDouble();
 
+
         double secondR = 2 * s - firstR;
 
-        System.out.println(secondR);
+        System.out.printf("%.0f%n", secondR);
     }
 }
