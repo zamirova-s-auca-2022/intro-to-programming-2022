@@ -6,7 +6,7 @@ public class Problem20 {
         int numbers = scanner.nextInt();
 
         String correctNumber;
-        if (numbers >= 5550000) {
+        if (numbers >= 5550000 && numbers <= 5559999) {
             correctNumber = "1";
         } else {
             correctNumber = "0";
