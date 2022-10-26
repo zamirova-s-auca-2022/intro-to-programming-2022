@@ -14,9 +14,12 @@ public class Problem18 {
         double destination = Math.sqrt(Math.pow(c-a, 2) + Math.pow(d-b, 2));
         double check = t - destination;
 
-        if (check > 0 &&  check % 2 == 0) {
+        if (check > 0 && check % 2 == 0) {
             System.out.println("y");
-        } else{
+        }
+        if (check < 0 && check * (-1) >0){
+            System.out.println("Y");
+        }else{
             System.out.println("N");
         }
     }
