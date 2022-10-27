@@ -8,7 +8,7 @@ public class Problem28 {
         int c = input.nextInt();
         int d = input.nextInt();
 
-        if (a == 9 || a == 8 && b == 9 || a == 8 && c == d){
+        if ((a ==8 || a == 9) && (d == 8 || d == 9) && b == c){
             System.out.println("ignore");
         }else{
             System.out.println("answer");
