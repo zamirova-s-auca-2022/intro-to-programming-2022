@@ -10,20 +10,10 @@ public class Problem27 {
         if (width == 3 && cheesiness >= 95) {
             M = "absolutely";
             System.out.println("C.C. is " + M + " satisfied with her pizza.");
-        }
-        if (width == 1 && cheesiness <= 50) {
+        } else if (width == 1 && cheesiness <= 50) {
             M = "fairly";
             System.out.println("C.C. is " + M + " satisfied with her pizza.");
-        }
-        if (width == 2 && cheesiness < 100) {
-            M = "very";
-            System.out.println("C.C. is " + M + " satisfied with her pizza.");
-        }
-        if (width == 1 && 50 < cheesiness && cheesiness < 100) {
-            M = "very";
-            System.out.println("C.C. is " + M + " satisfied with her pizza.");
-        }
-        if (width == 3 && cheesiness < 95) {
+        } else {
             M = "very";
             System.out.println("C.C. is " + M + " satisfied with her pizza.");
         }
