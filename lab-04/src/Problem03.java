@@ -26,6 +26,8 @@ public class Problem03 {
             case 11:
                 System.out.println("autumn");
                 break;
+            default:
+                System.out.println("There is not any month with this number.");
         }
 
     }
