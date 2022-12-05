@@ -6,11 +6,11 @@ public class Problem21 {
         int r = input.nextInt();
         int n = input.nextInt();
         int p = input.nextInt();
-        int infect = 0;
+        int impact = 0;
         int day = -1;
 
-        while (infect <= r) {
-            infect += n;
+        while (impact <= r) {
+            impact += n;
             n *= p;
             day++;
         }
